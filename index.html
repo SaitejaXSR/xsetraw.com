@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <h1 id="lib-header">sai teja's component library</h1>
-    <p class="para">This is a website to showcase my project i learned from neogcamp levelzero. </p>
+    <h1>sai teja's component library</h1>
+    <p >This is a website to showcase my project i learned from neogcamp levelzero. </p>
 
     <hr>
 
@@ -20,30 +20,30 @@
 
     <h2>this is the seccond biggest heading</h2>
 
-    <p class="para">this is normal text we use normally to write paras</p>
+    <p>this is normal text we use normally to write paras</p>
     <small>this is relatively smaller text than above</small>
 
     <hr>
 
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div>this is a fluid container and this will go to the end of the page</div>
+    <div class="container">this is a fluid container and this will go to the end of the page</div>
 
     <h3>centre container</h3>
-    <div>this is a centre container and will go till a specified length</div>
+    <div class="container container-centre">this is a centre container and will go till a specified length</div>
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/" target="_blank">Primary link</a>
+    <a class="link link-primary" href="/" target="_blank">Primary link</a>
 
-    <a href="/" target="_blank">Secondary link</a>
+    <a class="link link-secondary" href="/" target="_blank">Secondary link</a>
 
     <hr>
     <h2>@lists</h2>
     <h3>unordered lists</h3>
-
-    <ul>
+    <h3>these will not have bullets</h3>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
@@ -51,30 +51,30 @@
     </ul>
     <h3>Inline unorderd lists</h3>
     <ul>
-        <li>Inline Item one</li>
-        <li>Inline item two</li>
-        <li>Inline item three</li>
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline item two</li>
+        <li class="list-item-inline">Inline item three</li>
     </ul>
 
     <h3>reversed ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>eggs</li>
         <li>bread</li>
     </ol>
     <hr>
     <h2>@nav</h2>
-    <nav>
+    <nav class="navigation">
         <div>I am Brand</div>
-        <ul>
-            <li>
-                <a href="">Home</a>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="">Home</a>
             </li>
-            <li>
-                <a href="">projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="">projects</a>
             </li>
-            <li>
-                <a href="">blog</a>
+            <li class="list-item-inline">
+                <a class="link" href="">blog</a>
             </li>
         </ul>
     </nav>
