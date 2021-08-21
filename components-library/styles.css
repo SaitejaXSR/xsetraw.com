@@ -4,6 +4,7 @@
 :root{
     --primary-color :#6B7280;
     --off-white :#F3F4F6;
+    --purple-color:#8B5CF6;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -79,7 +80,7 @@ hr{
 
 .hero .hero-heading{
     text-align: center;
-    color: var(--primary-color);
+    color: var(--purple-color);
 }
 /*section*/
 .section{
