@@ -7,5 +7,5 @@ This is my website to show case my Portfolio which i am working on currently.
 For now, I know
 1. Core Java
 1. Oracle SQL
-1. HTMl5
+1. HTML5
 2. CSS3
