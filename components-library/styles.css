@@ -2,9 +2,9 @@
 /** typography**/
 
 :root{
-    --primary-color :#6B7280;
+    --primary-color :#030303;
     --off-white :#F3F4F6;
-    --purple-color:#8B5CF6;
+    --purple-color:#070707;
 }
 body{
     font-family: 'Open Sans', sans-serif;
